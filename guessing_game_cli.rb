@@ -2,7 +2,7 @@
 def run_guessing_game
   num=1+rand(6)
   puts "guess their own number between 1 and 6"
-  input=gets.chomp
+  input=gets
   if input == "exit"
     puts "Goodbye!"
   end
